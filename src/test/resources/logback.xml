@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration scan="true">
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+
+    <logger code="com.zeral" level="INFO"/>
+
+    <logger code="io.github.jhipster" level="WARN"/>
+
+    <logger code="javax.activation" level="WARN"/>
+    <logger code="javax.mail" level="WARN"/>
+    <logger code="javax.xml.bind" level="WARN"/>
+    <logger code="ch.qos.logback" level="WARN"/>
+    <logger code="com.codahale.metrics" level="WARN"/>
+    <logger code="com.ryantenney" level="WARN"/>
+    <logger code="com.sun" level="WARN"/>
+    <logger code="com.zaxxer" level="WARN"/>
+    <logger code="io.undertow" level="WARN"/>
+    <logger code="io.undertow.websockets.jsr" level="ERROR"/>
+    <logger code="org.ehcache" level="WARN"/>
+    <logger code="org.apache" level="WARN"/>
+    <logger code="org.apache.catalina.startup.DigesterFactory" level="OFF"/>
+    <logger code="org.bson" level="WARN"/>
+    <logger code="org.hibernate.validator" level="WARN"/>
+    <logger code="org.hibernate" level="WARN"/>
+    <logger code="org.hibernate.ejb.HibernatePersistence" level="OFF"/>
+    <logger code="org.springframework" level="WARN"/>
+    <logger code="org.springframework.web" level="WARN"/>
+    <logger code="org.springframework.security" level="WARN"/>
+    <logger code="org.springframework.cache" level="WARN"/>
+    <logger code="org.thymeleaf" level="WARN"/>
+    <logger code="org.xnio" level="WARN"/>
+    <logger code="springfox" level="WARN"/>
+    <logger code="sun.rmi" level="WARN"/>
+    <logger code="liquibase" level="WARN"/>
+    <logger code="LiquibaseSchemaResolver" level="INFO"/>
+    <logger code="sun.rmi.transport" level="WARN"/>
+
+    <root level="WARN">
+        <appender-ref ref="CONSOLE"/>
+    </root>
+
+</configuration>
