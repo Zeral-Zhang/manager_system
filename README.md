@@ -1,72 +1,33 @@
-# manager
-This application was generated using JHipster 4.12.0, you can find documentation and help at [http://www.jhipster.tech/documentation-archive/v4.12.0](http://www.jhipster.tech/documentation-archive/v4.12.0).
+# 基于 SpringBoot、JHipster 的管理系统后台
 
-## Development
+------
 
-To start your application in the dev profile, simply run:
+该项目配合管理前台一起使用 【[查看](https://github.com/Zeral-Zhang/manager_web)】  
+
+项目使用 JHipster 4.12.0 生成
+
+  ![主页](index.png)
+  
+## 开发
+
+启动 dev 配置的项目:
 
     ./mvnw
+    
+    访问：localhost:8080，点击链接查看 api 文档
+    
+   ![api](api.png)
 
+## 项目结构及使用
 
-For further instructions on how to develop with JHipster, have a look at [Using JHipster in development][].
+请移步 [JHipster](https://www.jhipster.tech/) 查看文档
 
+## 支持
 
+该项目有升级的计划，暂定功能：
+  + 基于数据库的动作级别权限配置
 
-## Building for production
+## 帮助
+如有对项目有任何疑问，技术问题或者非技术问题，请移步个人博客留言：
 
-To optimize the manager application for production, run:
-
-    ./mvnw -Pprod clean package
-
-To ensure everything worked, run:
-
-    java -jar target/*.war
-
-
-Refer to [Using JHipster in production][] for more details.
-
-## Testing
-
-To launch your application's tests, run:
-
-    ./mvnw clean test
-
-For more information, refer to the [Running tests page][].
-
-## Using Docker to simplify development (optional)
-
-You can use Docker to improve your JHipster development experience. A number of docker-compose configuration are available in the [src/main/docker](src/main/docker) folder to launch required third party services.
-
-For example, to start a mysql database in a docker container, run:
-
-    docker-compose -f src/main/docker/mysql.yml up -d
-
-To stop it and remove the container, run:
-
-    docker-compose -f src/main/docker/mysql.yml down
-
-You can also fully dockerize your application and all the services that it depends on.
-To achieve this, first build a docker image of your app by running:
-
-    ./mvnw verify -Pprod dockerfile:build
-
-Then run:
-
-    docker-compose -f src/main/docker/app.yml up -d
-
-For more information refer to [Using Docker and Docker-Compose][], this page also contains information on the docker-compose sub-generator (`jhipster docker-compose`), which is able to generate docker configurations for one or several JHipster applications.
-
-## Continuous Integration (optional)
-
-To configure CI for your project, run the ci-cd sub-generator (`jhipster ci-cd`), this will let you generate configuration files for a number of Continuous Integration systems. Consult the [Setting up Continuous Integration][] page for more information.
-
-[JHipster Homepage and latest documentation]: http://www.jhipster.tech
-[JHipster 4.12.0 archive]: http://www.jhipster.tech/documentation-archive/v4.12.0
-
-[Using JHipster in development]: http://www.jhipster.tech/documentation-archive/v4.12.0/development/
-[Using Docker and Docker-Compose]: http://www.jhipster.tech/documentation-archive/v4.12.0/docker-compose
-[Using JHipster in production]: http://www.jhipster.tech/documentation-archive/v4.12.0/production/
-[Running tests page]: http://www.jhipster.tech/documentation-archive/v4.12.0/running-tests/
-[Setting up Continuous Integration]: http://www.jhipster.tech/documentation-archive/v4.12.0/setting-up-ci/
-
-
+> [Zeral's Blog](http://zeral.top)
